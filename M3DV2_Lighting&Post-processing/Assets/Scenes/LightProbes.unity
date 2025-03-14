@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.4489324, g: 0.49899793, b: 0.5757067, a: 1}
+  m_IndirectSpecularColor: {r: 0.449687, g: 0.49975646, b: 0.57564104, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: f228933610f4ee5439c87068a6a8f56f, type: 2}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b8d82eff075b47f47b5268e9aea8e156, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 01a409a4968805a4ea413421e38099cc, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -260,22 +260,22 @@ LightProbeGroup:
   - {x: -1.3111253, y: 7.1809425, z: 2.8363335}
   - {x: -1.9315138, y: -1, z: 2.8363335}
   - {x: -6.9087763, y: 7.1809425, z: 3.1358666}
-  - {x: -6.9087763, y: 3.193011, z: 3.1358666}
-  - {x: -7.1542253, y: 3.193011, z: 4.1844444}
+  - {x: -7.102916, y: -2.136392, z: 3.1358666}
+  - {x: -7.348365, y: -2.136392, z: 4.1844444}
   - {x: 8.172842, y: 7.1809425, z: -10.065325}
   - {x: 8.172842, y: -1, z: -10.065325}
-  - {x: -6.9087763, y: 7.1809425, z: -9.765792}
-  - {x: -6.9087763, y: 3.193011, z: -9.765792}
+  - {x: -6.9087763, y: 7.1809425, z: -4.1532316}
+  - {x: -7.102916, y: -2.136392, z: -4.1532316}
   - {x: 6.2417636, y: 7.1809425, z: 3.9521778}
   - {x: 6.2417636, y: -1, z: 3.9521778}
   - {x: 3.632826, y: 7.1809425, z: 3.3422544}
   - {x: 3.632826, y: -1, z: 3.3422544}
-  - {x: 0.49684525, y: 7.1809425, z: -8.12481}
-  - {x: 0.0933826, y: -1, z: -8.12481}
+  - {x: 0.49684525, y: 7.1809425, z: -2.51225}
+  - {x: 0.0933826, y: -1, z: -2.51225}
   - {x: 1.3023826, y: 7.1809425, z: -8.149978}
   - {x: 1.256688, y: -1, z: -8.176046}
   - {x: -6.9087763, y: 7.1809425, z: 1.9768996}
-  - {x: -6.9087763, y: 3.193011, z: 1.9768996}
+  - {x: -7.102916, y: -2.136392, z: 1.9768996}
   - {x: 6.7626295, y: 7.1809425, z: 3.020362}
   - {x: 6.7626295, y: -1, z: 3.020362}
   - {x: -1.6125858, y: 7.1809425, z: 0.7962336}
@@ -286,6 +286,20 @@ LightProbeGroup:
   - {x: 0.0933826, y: -1, z: -2.5530667}
   - {x: 1.256688, y: -1, z: -2.6043026}
   - {x: 1.3023826, y: 7.1809425, z: -2.578234}
+  - {x: -6.9087763, y: 7.1809425, z: -9.765792}
+  - {x: -7.102916, y: -2.136392, z: -9.765792}
+  - {x: 0.49684525, y: 7.1809425, z: -8.12481}
+  - {x: 0.0933826, y: -1, z: -8.12481}
+  - {x: -6.9087763, y: 7.1809425, z: -7.309158}
+  - {x: -7.102916, y: -2.136392, z: -7.309158}
+  - {x: 0.49684525, y: 7.1809425, z: -5.668176}
+  - {x: 0.0933826, y: -1, z: -5.668176}
+  - {x: -6.9087763, y: 3.193011, z: -9.765792}
+  - {x: -6.9087763, y: 3.193011, z: -7.309158}
+  - {x: -6.9087763, y: 3.193011, z: -4.1532316}
+  - {x: -6.9087763, y: 3.193011, z: 1.9768996}
+  - {x: -6.9087763, y: 3.193011, z: 3.1358666}
+  - {x: -7.1542253, y: 3.193011, z: 4.1844444}
   m_Dering: 1
 --- !u!4 &554531344
 Transform:
@@ -376,7 +390,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.02e-43, y: 1.4e-44, z: 6.15e-42, w: 0}
+  m_BoundingSphereOverride: {x: 1.02e-43, y: 6e-44, z: 1.3e-44, w: 1.574e-42}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -1042,7 +1056,7 @@ Transform:
   m_GameObject: {fileID: 1967574939}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.21, y: -1.34, z: -4.85}
+  m_LocalPosition: {x: 1.382, y: -1.34, z: 0.38}
   m_LocalScale: {x: 1.7900001, y: 1.7900001, z: 1.7900001}
   m_ConstrainProportionsScale: 1
   m_Children: []
